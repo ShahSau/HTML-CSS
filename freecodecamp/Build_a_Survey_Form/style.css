@@ -4,14 +4,23 @@ body{
     background-size: cover;
     /*background-position: center;
     width:100%;*/
-
+    color:#ddd;
+    font-family: 'Roboto', sans-serif;
 }
+
+    
+h1, p{
+    text-align: center;
+}
+
 #survey-form{
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
-  }
+    transition: 0.2s;
+}
+
 .form-body{
     display: block;
     width: 100%;
@@ -23,4 +32,24 @@ body{
     outline: none;
     color: #ddd;
     transition: 0.5s;
+}
+
+input{
+      background-color:#111;
+      color: #ddd;
   }
+
+
+
+#submit{
+    border: 0;
+    background: #ddd;
+    margin-left: 38%;
+    color: #111;
+    padding: 10px 50px;
+    border-radius: 25px;
+    width:20%;
+  }
+option {
+    width: 50px;
+}
