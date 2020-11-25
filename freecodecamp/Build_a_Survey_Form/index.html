@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey form</h1>
+    <p id="description">Thank you for taking the survey </p>
+    <form id="survey-form" action="index.html" method="post">
+        <label for="name" id="name-label">Name</label><br>
+        <input id="name" class="form-body" type="text" placeholder="Enter your full name" name="name" required>
+        <label for="mail" id="email-label">Email</label><br>
+        <input id="email" class="form-body"  type="email" placeholder="Enter your email"name="mail" required>
+        <label for="phone">Phone Number</label><br>
+        <input id="number" class="form-body" type="tel" pattern="[0-9]{12}" placeholder="Your phone number" name="phone" required>
+        <label for="age" id="number-label">Age (Optional)</label><br>
+        <input id="number" class="form-body" type="number" placeholder="Your age" name="age" min="1" max="99">
+        <label for="message">Any message for us?</label><br>
+        <textarea class="form-body" placeholder="Your message" name="message"></textarea>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <!--<form action="index.html" method="post">
+        <input type="text" class="contact-form-text" placeholder="Your name">
+        <input type="email" class="contact-form-text" placeholder="Your email">
+        <input type="text" class="contact-form-text" placeholder="Your phone">
+        <textarea class="contact-form-text" placeholder="Your message"></textarea>
+        <input type="submit" class="contact-form-btn" value="Send">
+      </form> -->
+</body>
+</html>
+

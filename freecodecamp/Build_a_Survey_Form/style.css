@@ -1,0 +1,26 @@
+body{
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center;
+    width:100%;*/
+
+}
+#survey-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+.form-body{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+  }
